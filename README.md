@@ -8,15 +8,16 @@
 > Desenvolver um sistema para monitoramento da temperatura e umidade de ambientes, oferecendo mecanismos para alertar os responsáveis caso o nível máximo e/ou mínimo permitido de um dos itens monitorados seja ultrapassado.
 
 ##### 2. Viabilizadores técnicos
->* **Raspberry Pi 1 B+**: hardware para leitura dos dados
->* **Protoboard:** placa para montagem de circuitos elétricos experimentais
->* **Dht22:** sensor de umidade e tempuratura
->* **Buzzer:** dispositivo para emissão de alertas sonoros
->* **Led**: dispositivo para emissão de alertas visuais
->* **Python 2.7**: linguagem de programação interpretada
->* **Adafruit Python DHT:** biblioteca escrita em Python para leitura dos sensores
->* **Ionic:** framework para desenvolvimento de aplicações móveis híbidas
->* **Firebase:** banco de dados NoSQL da Google
+>* **Raspberry Pi 1 B+**: hardware para leitura dos dados;
+>* **Protoboard:** placa para montagem de circuitos elétricos experimentais;
+>* **Dht22:** sensor de umidade e tempuratura;
+>* **Buzzer:** dispositivo para emissão de alertas sonoros;
+>* **Led**: dispositivo para emissão de alertas visuais;
+>* **Python 2.7**: linguagem de programação interpretada;
+>* **Adafruit Python DHT:** biblioteca escrita em Python para leitura dos sensores;
+>* **Ionic:** framework para desenvolvimento de aplicações móveis híbidas;
+>* **Firebase:** banco de dados NoSQL da Google;
+>* **One Signal**: Ferramenta gratuita para envio de push notification.
 
 ##### 3. Resultados alcançados
 > Foi criado um programa na linguagem Python, usando a biblioca Adafruit, capaz de ler os dados coletados por um sensor de temperatura e umidade, acoplado ao Raspberry Pi onde o programa é executado. A cada leitura, os dados coletados são enviados para um banco de dados NoSQL criado na nuvem por meio de uma requisição HTTP (POST). 
