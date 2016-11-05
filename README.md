@@ -1,7 +1,7 @@
 ##### Especialização em Arquitetura de Software Distribuído
 ##### Disicplina: Internet das Coisas (IoT)
 ##### Trabalho Final: Sistema de monitoramento de temperatura e umidade
-##### Professor: Ilo Riveiro
+##### Professor: Ilo Rivero
 ##### Alunos: Pedro Amaral (68072) e Vinícius Amaral (67652)
 
 ##### 1. Objetivo
