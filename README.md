@@ -27,8 +27,8 @@
 > Quando os níveis determinados pelo usuário forem atingidos, além da notificação enviada para o celular onde o aplicativo estiver instalado, um alerta sonoro e outro visual também serão emitidos com o objetivo de informar a ocorrência da anormalidade às pessoas que estiverem no ambiente monitorado.
 
 ##### 4. Demonstração
->* https://www.youtube.com/
+>* https://www.youtube.com/watch?v=0vDQaIlSaBk
 
 ##### 5. Observações para compilar o aplicativo
->* Em www/index.html, trocar <PROJECT_ID>  para o identificador do projeto no Firebase.
->* Em www/js/app.js, trocar <APP_ID> pelo id do aplicativo OneSignal e trocar <GOOGLE_ID> pelo id do aplicativo na Google (conforme instruções do OneSignal).
+>* Em www/index.html, trocar \<PROJECT_ID\>  para o identificador do projeto no Firebase.
+>* Em www/js/app.js, trocar \<APP_ID\> pelo id do aplicativo OneSignal e trocar <GOOGLE_ID> pelo id do aplicativo na Google (conforme instruções do OneSignal).
