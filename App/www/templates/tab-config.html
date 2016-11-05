@@ -1,0 +1,28 @@
+<ion-view>
+  <ion-content class="padding">
+    <label class="item item-input">
+      <span class="input-label">Temperatura máxima (ºC): </span>
+      <input type="text" ng-model="config.valorAlertaTemperaturaMaxima"></input>
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Temperatura mínima (ºC): </span>
+      <input type="text" ng-model="config.valorAlertaTemperaturaMinima"></input>
+    </label>
+
+    <label class="item item-input">
+      <span class="input-label">Umidade máxima (%): </span>
+      <input type="text" ng-model="config.valorAlertaUmidadeMaxima"></input>
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Umidade mínima (%): </span>
+      <input type="text" ng-model="config.valorAlertaUmidadeMinima"></input>
+    </label>
+    
+    <label class="item item-input">
+      <span class="input-label">Intervalo monitoramento (s): </span>
+      <input type="text" ng-model="config.intervaloMonitoramento"></input>
+    </label>
+    <br/>
+    <button type="button" ng-click="atualizar()">Atualizar</button>
+  </ion-content>
+</ion-view>

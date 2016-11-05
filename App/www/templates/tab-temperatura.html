@@ -1,0 +1,35 @@
+<ion-view>
+
+  <ion-content>
+      <br/>
+  <br/>
+    <label class="item item-input">
+      <span class="input-label"><b>Data Inicial: </b></span>
+      <input type="text" on-tap="onDate(inicio)" ng-model="inicio.data" required>
+    </label>
+    <label class="item item-input">
+      <span class="input-label"><b>Data Final: </b></span>
+      <input type="text" on-tap="onDate(fim)" ng-model="fim.data" required>
+    </label>
+    <div style="float: right; margin: 10px;">
+      <button type="button" ng-click="pesquisar()">Pesquisar</button>
+    </div>
+
+  <br/>
+  <!--</ion-content>
+
+  <ion-content>-->
+    <div class="row header">
+      <div class="col"><b>Data</b></div>
+      <div class="col"><b>Hora</b></div>
+      <div class="col"><b>Temperatura</b></div>
+      <div class="col"><b>Umidade</b></div>
+    </div>
+    <div class="row" ng-repeat="value in temperaturas">
+      <div class="col">{{value.data}}</div>
+      <div class="col">{{value.hora}}</div>
+      <div class="col">{{value.temperatura.toFixed(1)}}ºC</div>
+      <div class="col">{{value.umidade.toFixed(1)}}%</div>
+    </div>
+  </ion-content>
+</ion-view>
