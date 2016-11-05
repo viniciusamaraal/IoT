@@ -17,10 +17,10 @@
 >* **Adafruit Python DHT:** biblioteca escrita em Python para leitura dos sensores;
 >* **Ionic:** framework para desenvolvimento de aplicações móveis híbidas;
 >* **Firebase:** banco de dados NoSQL da Google;
->* **One Signal**: Ferramenta gratuita para envio de push notification.
+>* **OneSignal**: Ferramenta gratuita para envio de push notification.
 
 ##### 3. Resultados alcançados
-> Foi criado um programa na linguagem Python, usando a biblioca Adafruit, capaz de ler os dados coletados por um sensor de temperatura e umidade, acoplado ao Raspberry Pi onde o programa é executado. A cada leitura, os dados coletados são enviados para um banco de dados NoSQL criado na nuvem por meio de uma requisição HTTP (POST). 
+> Foi criado um programa na linguagem Python, usando a biblioca Adafruit, capaz de ler os dados coletados por um sensor de temperatura e umidade acoplado ao Raspberry Pi onde o programa é executado. A cada leitura, os dados coletados são enviados para um banco de dados NoSQL criado na nuvem por meio de uma requisição HTTP (POST). 
 
 > A periodicidade das medições pode ser determinada pelo usuário por meio de um aplicativo, disponível para a plataforma Android. Nesse aplicativo também é possível que o usuário determine os níveis máximos e/ou mínimos permitidos para cada item monitorado. Caso os níveis sejam ultrapassados, o usuário receberá uma notificação em seu celular informando o ocorrido. Além disso, é possível que o usuário acompanhe em tempo real as medições realizadas.
 
@@ -28,3 +28,7 @@
 
 ##### 4. Demonstração
 >* https://www.youtube.com/
+
+##### 5. Observações para compilar o aplicativo
+>* Em www/index.html, trocar <PROJECT_ID>  para o identificador do projeto no Firebase.
+>* Em www/js/app.js, trocar <APP_ID> pelo id do aplicativo OneSignal e trocar <GOOGLE_ID> pelo id do aplicativo na Google (conforme instruções do OneSignal).
