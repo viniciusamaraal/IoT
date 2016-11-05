@@ -83,8 +83,8 @@ while(1):
      definirAlarme(Decimal(temp), Decimal(umid))
 
      #GPIO.output(18, GPIO.LOW)
-     print ("Aguarde {0:0.1f} segundos para efetuar nova leitura...\n").format(config["intervaloMonitoramento"])
-     time.sleep(config["intervaloMonitoramento"])
+     print ("Aguarde {0} segundos para efetuar nova leitura...\n").format(config["intervaloMonitoramento"])
+     time.sleep(float(config["intervaloMonitoramento"]))
    else:
      # Mensagem de erro de comunicacao com o sensor
      print("Falha ao ler dados do DHT11 !!!")
